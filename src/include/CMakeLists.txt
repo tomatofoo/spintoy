@@ -1,0 +1,10 @@
+if (DEV)
+    target_sources(main.out PRIVATE physics.c)
+    target_sources(main.out PRIVATE renderer.c)
+    target_sources(main.out PRIVATE utils.c)
+else()
+    target_sources(main PRIVATE physics.c)
+    target_sources(main PRIVATE renderer.c)
+    target_sources(main PRIVATE utils.c)
+endif()
+
