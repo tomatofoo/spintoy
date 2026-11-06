@@ -1,0 +1,3 @@
+[submodule "src/include/spn"]
+	path = src/include/spn
+	url = https://github.com/tomatofoo/spn
