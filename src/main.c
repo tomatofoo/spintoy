@@ -77,8 +77,6 @@ SDL_AppResult SDL_AppIterate(void *appstate) {
         return SDL_APP_FAILURE;
     }
 
-
-
     if (!SDL_RenderPresent(renderer)) {
         SDL_LogError(
             SDL_LOG_CATEGORY_RENDER,
